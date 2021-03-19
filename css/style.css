@@ -2,6 +2,12 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    border:1px solid black;
+}
+
+div{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .clearfix::after{
@@ -19,20 +25,58 @@
 
 header{
     width:100%;
-    height:150px;
-    background-color: blueviolet;
+    height:auto;
+    /* background-color: blueviolet; */
 }
 
+.dimensioni_logo{
+    background-size: cover;
+    width:100px;
+    height:40px;
+    margin-bottom: 10px;
+}
 
 .logo{
     width:100%;
-    height:25%;
-    background-color: red;
+    height:30%;;
+    
 }
 
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:grey;
+    margin-right: 5px;
+}
+.nav_color, .testo_grigio{
+    color:gray;
+}
 
-.nav_color{
-    color:lightgrey;
+.banner_principale{
+   /*  height: 70%;
+    width:100%; */
+    height: 450px;
+    width:718px;
+    position:relative;
+    
+}
+
+/* .posizione_testo_banner{
+    position: relative;
+    text-align: center;
+    color:grey;
+}
+
+.testo_banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.dimensione_banner{
+    height:100%;
+    width:100%;
 }
 
 /* /header */
@@ -41,11 +85,13 @@ header{
 .title{
     width:100;
     height:20px;
-    background-color: gold;
+    margin:10px 0;
 }
+
 
 .contenuto{
     height:100%;
+
 }
 
 .left_sidebar{
