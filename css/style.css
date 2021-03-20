@@ -53,33 +53,38 @@ a{
 }
 
 
-
 .banner_principale{
-    height: 70%;
-    width:100%;
-    height: 450px;
+    /* height: 70%;
+    width:100%; */
+    height: 400px;
     width:718px;
-    position:relative;
-    
+    position:relative;  
+     
 }
 
-/* .posizione_testo_banner{
-    position: relative;
-    text-align: center;
-    color:grey;
-}
-
-.testo_banner{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
 
 .dimensione_banner{
-    height:100%;
+    height:400px;
     width:100%;
 }
+ .posizione_testo_banner{
+    width: 70%;
+    position:absolute;
+    text-align: justify;
+    bottom: 5%;
+    left:2%;
+    color:gray;
+}
+
+/* .testo_banner{
+    position: absolute;
+    bottom: 20%;
+    left:100px;
+    transform: translate(-50%, -50%);
+}  */
+
+
+
 
 /* /header */
 
@@ -149,8 +154,9 @@ a{
 
 
 footer{
+    line-height: normal;
+    text-align: center;
     width:100%;
-    height: 50px;
     background-color: coral;
 }
 
