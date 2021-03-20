@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    border:1px solid black;
+    /* border:1px solid black; */
+}
+
+body{
+    width:1500px;
 }
 
 div{
@@ -17,10 +21,10 @@ div{
 }
   /* header */
 .container{
-    width:75%;
+    width:60%;
     /* height:900px; */
     margin:auto;
-    background-color:aquamarine;
+  /*   background-color:aquamarine; */
 }
 
 header{
@@ -64,8 +68,9 @@ a{
 
 
 .dimensione_banner{
+    border-radius: 15px;
     height:400px;
-    width:100%;
+    width:900px;
 }
  .posizione_testo_banner{
     width: 70%;
@@ -102,7 +107,7 @@ a{
 }
 
 .left_sidebar{
-    background-color: green;
+   /*  background-color: green; */
     float:left;
 }
 
@@ -119,7 +124,7 @@ a{
 
 
 .right_sidebar{
-    background-color: rgb(51, 79, 170);
+   /*  background-color: rgb(51, 79, 170); */
     float:right;
 }
 
@@ -132,7 +137,7 @@ a{
     padding:0 10px 10px 10px;
     box-sizing: border-box;
     width:50%;
-    background-color: lightpink;
+  /*   background-color: lightpink; */
     height:100%;
     float:left;
 }
@@ -154,9 +159,10 @@ a{
 
 
 footer{
+    margin-bottom:20px;
     line-height: normal;
     text-align: center;
     width:100%;
-    background-color: coral;
-}
+  /*   background-color: coral;
+} */
 
