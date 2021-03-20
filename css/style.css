@@ -52,6 +52,12 @@ a{
     color:grey;
     margin-right: 5px;
 }
+
+.navigator{
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
 .nav_color, .testo_grigio{
     color:gray;
 }
